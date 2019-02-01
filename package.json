@@ -1,0 +1,22 @@
+{
+  "name": "url-qrcode",
+  "version": "1.0.0",
+  "description": "chrome插件用于将地址转为二维码",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trains629/url-qrcode.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trains629/url-qrcode/issues"
+  },
+  "homepage": "https://github.com/trains629/url-qrcode#readme",
+  "dependencies": {
+    "qrcode.react": "^0.9.2"
+  }
+}
