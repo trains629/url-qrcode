@@ -2,12 +2,11 @@ import QRCode from "qrcode.react";
 
 import { h, render } from 'preact';
 
-function init(value) {
+function qrcode(value) {
    const qrcode = document.querySelector("#qrcode");
-   render(<QRCode value={value} />, qrcode);
-
+   render(<QRCode value={value} size={256}/>, qrcode);
 }
 
 chrome.tabs.getSelected(null, function ({url}) {
-  init(url);
+  qrcode(url);
 });
